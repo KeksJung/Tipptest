@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biathlon Tippspiel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Biathlon Tippspiel</h1>
+  <form id="tipForm">
+    <label for="spieler">Spielername:</label>
+    <input type="text" id="spieler" placeholder="Dein Name" required>
+
+    <label for="platz1">Platz 1:</label>
+    <input type="text" id="platz1" placeholder="Name Läufer" required>
+
+    <label for="platz2">Platz 2:</label>
+    <input type="text" id="platz2" placeholder="Name Läufer" required>
+
+    <label for="platz3">Platz 3:</label>
+    <input type="text" id="platz3" placeholder="Name Läufer" required>
+
+    <label for="platz4">Platz 4:</label>
+    <input type="text" id="platz4" placeholder="Name Läufer" required>
+
+    <label for="platz5">Platz 5:</label>
+    <input type="text" id="platz5" placeholder="Name Läufer" required>
+
+    <button type="button" onclick="submitTip()">Tipp abgeben</button>
+  </form>
+
+  <p id="response"></p>
+  <script src="script.js"></script>
+</body>
+</html>
